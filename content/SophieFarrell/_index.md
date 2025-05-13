@@ -1,5 +1,5 @@
 ---
-title: "Ms. Sophie Farrell"
+title: "Sophie Farrell"
 ---
 
 Hi, I'm Sophie!
