@@ -29,25 +29,25 @@ User Stories:
 - Story 4
 - Story 5
 
-## Name 2
-Description of the person. 
+## Paul E. Tishan
+Paul is a policy maker in Brussels. He's working to raise the birth rate in his country through legislation. He hopes that by targetting factors related to the declining birth rate he can impact potential parents' decision to have children. 
 
 User Stories:
-- Story 1
-- Story 2
-- Story 3
-- Story 4
-- Story 5
+- As Paul, I [want to], [so that]
+- A a politician, I [want to], [so that]
+- As Paul, I [want to], [so that]
+- As Paul, I [want to], [so that]
+- As a policy maker, I [want to], [so that]
 
-## Name 3
-Description of the person. 
+## Cara Day
+Cara is the owner of a daycare in France. She loves the children that she takes care of every year, but she can't help but notice she has less applicants to attend her daycare than she did 20 years ago. She's curious about the reason why and would like to know how many applicants she'll get in the coming years. 
 
 User Stories:
-- Story 1
-- Story 2
-- Story 3
-- Story 4
-- Story 5
+- As Cara, I [want to], [so that]
+- As Cara, I [want to], [so that]
+- As a daycare owner, I [want to], [so that]
+- As Cara, I [want to], [so that]
+- As a daycare owner, I [want to], [so that]
 
 # Data Sources
 

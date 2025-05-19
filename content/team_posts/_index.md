@@ -1,15 +1,18 @@
 ---
-title: "Project - Phase I"
-date: 2024-05-11
+title: "Project - Insert Name Here"
+date: 2024-05-19
 draft: false
 description: "Our Idea"
 tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
-  - "eric_gerber"
+  - "sophiefarrell"
+  - "johnnguyen"
+  - "emmakulla"
+  - "miagiargiari"
 showAuthorsBadges : false
 ---
 
-# Welcome to Team WeCanDoThis!
+# Welcome to Team Cool-25!
 
-Welcome to the Professorial Team's Blog
+Welcome to the Team's Blog! We need to change our team name and give our project a name! 
