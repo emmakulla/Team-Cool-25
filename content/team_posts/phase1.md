@@ -1,7 +1,7 @@
 ---
 title: "Project - Phase I"
 date: 2024-05-20
-draft: false
+draft: true
 description: "Our Idea"
 slug: "phase1post"
 tags: ["project", "Setup"]
@@ -13,37 +13,60 @@ authors:
 showAuthorsBadges: false
 ---
 
-# Introduction
-
-Hi, We are Team Leuven! **This is bold text**, and this is _emphasized_ text.
-
-- here
-- are
-- some
-- bullet
-- points
-
-# This is a Level 1 heading
-
-Can you see this?
-
-## This is a Level 2 heading
-
-Wait, can you hear me now? The text below is the start of me messing with how our blog works. Everything above is for the sake of messing with how things look. 
-
 # Description
+
+So here is the little text paragraph that is going to be here describing our project. Yay. Birth rates are declining. It's a problem. "Problem X is hard… We are building an application to address A, B, C about Problem X…”. Declining birth rates will be bad. We are building an application to address A, B, C about declining birth rates. I don't know lol. 
 
 # User Personas
 
 ## Name 1
-Description
+Description of the person. 
+
+User Stories:
+- Story 1
+- Story 2
+- Story 3
+- Story 4
+- Story 5
 
 ## Name 2
-Description
+Description of the person. 
+
+User Stories:
+- Story 1
+- Story 2
+- Story 3
+- Story 4
+- Story 5
 
 ## Name 3
-Description
+Description of the person. 
+
+User Stories:
+- Story 1
+- Story 2
+- Story 3
+- Story 4
+- Story 5
 
 # Data Sources
-- Number 1
-- Number 2
+
+## Data Source 1
+
+Ability to access: 
+
+Establish contents of data as appropriate for ML: 
+- number of observations
+- types of features
+
+Utility of data in addressing personas’ use of application: 
+
+## Data Source 2
+
+Ability to access: 
+
+Establish contents of data as appropriate for ML: 
+- number of observations
+- types of features
+
+Utility of data in addressing personas’ use of application:
