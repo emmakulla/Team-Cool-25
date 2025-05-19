@@ -1,13 +1,15 @@
 ---
 title: "Project - Phase I"
-date: 2024-05-14
-draft: false
+date: 2024-05-20
+draft: true
 description: "Our Idea"
 slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
-  - "eric_gerber"
-  - "mark_fontenot"
+  - "sophiefarrell"
+  - "johnnguyen"
+  - "emmakulla"
+  - "miagiargiari"
 showAuthorsBadges: false
 ---
 
