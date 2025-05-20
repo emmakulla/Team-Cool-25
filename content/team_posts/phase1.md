@@ -45,14 +45,13 @@ User Stories:
 - As a policy maker, I [want to], [so that]
 
 ## Cara Day
-Cara is the owner of a daycare in France. She loves the children that she takes care of every year, but she can't help but notice she has less applicants to attend her daycare than she did 20 years ago. She's curious about the reason why and would like to know how many applicants she'll get in the coming years. 
+Cara is the owner of a daycare in France. She loves the children that she takes care of every year, but she can't help but notice she has less applicants to attend her daycare than she did 15 years ago. She's curious about the reason why and would like to know how many applicants she'll get in the coming years. 
 
 User Stories:
-- As Cara, I [want to], [so that]
-- As Cara, I [want to], [so that]
-- As a daycare owner, I [want to], [so that]
-- As Cara, I [want to], [so that]
-- As a daycare owner, I [want to], [so that]
+- As Cara, I want to know how many children will apply to my daycare, so that I can prepare my daycare for more or less children by hiring new staff, buying supplies, etc. 
+- As Cara, I want to know how long parents of children work on average, so that I can set a reasonable time for parent pick up and drop off. 
+- As a daycare owner, I want to understand why there are less parents than there were in the past, so that I can make plans for the future of my business. 
+- As Cara, I want to know different typically affect parents, so that I can have a better understanding of the children under my care and their needs. 
 
 # Data Sources
 
