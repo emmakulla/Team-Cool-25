@@ -27,7 +27,7 @@ Our research hopes to combine these complementary analyses to discover what succ
 # User Personas
 
 ## Eura Pean
-Eura Pean is Polish citizen residing in Warsaw, Poland. Although not married, she is thinking about adopting kids from a local shelter. She has recently taken a managerial position at her local bank, stretching her hours and has made her more cautious about the life-changing decision. She is seeking more research.
+Eura Pean is Polish citizen residing in Warsaw, Poland. Although not married, she is thinking about adopting kids from a local orphanage. She has recently taken a managerial position at her local bank, stretching her hours and has made her more cautious about the life-changing decision. She is seeking more research.
 
 User Stories:
 - As a local branch bank manager, I want to see how other women balance life at home and life at work, so that I can continue growing my career at the bank, which is a job I love.
