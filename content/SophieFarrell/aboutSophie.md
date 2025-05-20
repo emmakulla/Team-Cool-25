@@ -1,6 +1,6 @@
 ---
 title: "About Sophie Farrell"
-date: 2024-05-13
+date: 2025-05-13
 draft: false
 description: "Sophie Farrell Description"
 slug: "aboutsophie"   # if you use, needs to be different for every post
