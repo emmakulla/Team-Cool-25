@@ -18,6 +18,10 @@ I arrived in Belgium on Monday, May 12th 2025 for my Dialogue in International D
 
 <img src="/assets/sophieBruge.jpeg" width="200" height="300">
 
+[<img src="/sophieBruge.jpeg" height="300"/>](/sophieBruge.jpeg)
+
+![bruh](/sophieBruge2.jpeg)
+
 
 # Project Phase 1
 
