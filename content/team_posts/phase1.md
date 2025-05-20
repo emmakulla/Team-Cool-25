@@ -15,7 +15,12 @@ showAuthorsBadges: false
 
 # Description
 
-So here is the little text paragraph that is going to be here describing our project. Yay. Birth rates are declining. It's a problem. "Problem X is hard… We are building an application to address A, B, C about Problem X…”. Declining birth rates will be bad. We are building an application to address A, B, C  declining birth rates. I don't know lol. 
+Is quality of life declining? Are politics uprooting longstanding systems? Do things just feel too unstable? Above all, our project draws these questions to an alarming trend: **declining birth rates** in various nations around the globe. South Korea has seen birth rates plummeted. In 2023, the EU saw its [largest decline in birth rate](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250307-1#:~:text=In%202023%2C%203.67%20million%20babies,down%20from%201.46%20in%202022.) since 1961. Exploring this phenomenon deeper, we ask two questions: 
+
+1. Given rising financial uncertainty, how do weekly working hours by sex, age, and professional status correlate with employment rates of parents across different countries in the EU? What nations with more flexible working arrangements show higher employment rates for adults with young children (especially mothers)?
+2. Between educational attainment and employment rates, what is the relationship among parents with young children across different EU countries? 
+
+Our research hopes to combine these complementary analyses to discover what successful policy frameworks that support families to be successful and economically cared for — especially against the diverse European cultural landscapes. Nurturing the project via Eurostat, we hope to reveal insights through data such as gender inequality (wage disparities, labor market participation), work-life balance (commuting burden, conditions of work), social support systems (social safety net, investment in human capital), or safety (crime levels).
 
 # User Personas
 
