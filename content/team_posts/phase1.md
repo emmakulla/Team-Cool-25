@@ -68,6 +68,7 @@ The structure of the data:
 - Dimensions: Sex, age, employment status, worktime, economic status, country, year. 
 - Units: Hours per week
 - Observations: Many datapoints due to multi-dimensional combinations
+
 Relevance: Helps investigate how working hours across demographics may influence family planning decisions and overall fertility rates. Politicians may use it in exploring policy impacts on the overall work-life balance. Parents may use it to compare average workload norms in different countries. Daycare workers can use this data to estimate the influx of children they will receive and the average hours parents will need care. 
 
 
@@ -77,4 +78,5 @@ The Structure of the Data:
 - Dimensions: geographic Area, Year, Sex
 - Units: Live births per 100 people
 - Observations: 53 geographic areas x 12 years = 636
+
 Relevance: Will help to understand and help predict the declining birth rates, providing standardized and comparable measures of fertility that can be used as our dependent variable. This dataset is relevant to understanding how to respond to demographic changes.
