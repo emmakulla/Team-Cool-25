@@ -15,7 +15,7 @@ showAuthorsBadges: false
 
 # Description
 
-So here is the little text paragraph that is going to be here describing our project. Yay. Birth rates are declining. It's a problem. "Problem X is hard… We are building an application to address A, B, C about Problem X…”. Declining birth rates will be bad. We are building an application to address A, B, C about declining birth rates. I don't know lol. 
+So here is the little text paragraph that is going to be here describing our project. Yay. Birth rates are declining. It's a problem. "Problem X is hard… We are building an application to address A, B, C about Problem X…”. Declining birth rates will be bad. We are building an application to address A, B, C  declining birth rates. I don't know lol. 
 
 # User Personas
 
