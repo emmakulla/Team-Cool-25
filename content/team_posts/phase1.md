@@ -54,24 +54,27 @@ User Stories:
 - As a daycare owner, I want to know how long parents of children work on average, so that I can set a reasonable time for parent pick up and drop off. 
 - As a business owner, I want to understand why there are less parents than there were in the past, so that I can make plans for the future of my business. 
 
-# Data Sources
 
+# Data Sources
+The two datasets we chose to evaluate were retrieved from the Eurostat database. Meaning both were accessed from a public API using Python with no authentication or paywall required. 
+
+## API Access
+
+![datapic](/API.png)
 ## Data Source 1
 
-Ability to access: 
+Dataset one demonstrated average weekly hours worked by individuals in European countries. This dataset has work hours broken down by sex, age group, employment staus, and economic activity. The dataset is reported annually and covers multiple years. 
+The structure of the data:
+- Dimensions: Sex, age, employment status, worktime, economic status, country, year. 
+- Units: Hours per week
+- Observations: Many datapoints due to multi-dimensional combinations
+Relevance: Helps investigate how working hours across demographics may influence family planning decisions and overall fertility rates. Politicians may use it in exploring policy impacts on the overall work-life balance. Parents may use it to compare average workload norms in different countries. Daycare workers can use this data to estimate the influx of children they will receive and the average hours parents will need care. 
 
-Establish contents of data as appropriate for ML: 
-- number of observations
-- types of features
-
-Utility of data in addressing personas’ use of application: 
 
 ## Data Source 2
-
-Ability to access: 
-
-Establish contents of data as appropriate for ML: 
-- number of observations
-- types of features
-
-Utility of data in addressing personas’ use of application:
+Dataset two shows the crude birth rate (or number of live births per 1000 people) in a given population per year. This data contains annual data across European countries and regions, the birthrate is reported at the national level.
+The Structure of the Data:
+- Dimensions: geographic Area, Year, Sex
+- Units: Live births per 100 people
+- Observations: 53 geographic areas x 12 years = 636
+Relevance: Will help to understand and help predict the declining birth rates, providing standardized and comparable measures of fertility that can be used as our dependent variable. This dataset is relevant to understanding how to respond to demographic changes.
