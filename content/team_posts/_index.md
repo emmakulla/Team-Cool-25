@@ -1,6 +1,6 @@
 ---
-title: "Project - Insert Name Here"
-date: 2025-05-19
+title: "Project - Counting Children"
+date: 2025-05-20
 draft: false
 description: "Our Idea"
 tags: ["authors", "config", "docs"]
@@ -15,4 +15,4 @@ showAuthorsBadges : false
 
 # Welcome to Team Cool-25!
 
-Welcome to the Team's Blog! We need to change our team name and give our project a name! 
+Welcome to the Team's Blog! Our project is going to be super cool! 
