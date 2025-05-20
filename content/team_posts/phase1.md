@@ -1,7 +1,7 @@
 ---
 title: "Project - Phase I"
 date: 2024-05-20
-draft: true
+draft: false
 description: "Our Idea"
 slug: "phase1post"
 tags: ["project", "Setup"]
