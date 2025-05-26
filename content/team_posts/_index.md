@@ -1,5 +1,5 @@
 ---
-title: "Data Driven App Development Project"
+title: "Team Cool 25 Belgium DOC Project"
 date: 2025-05-20
 draft: false
 description: "Our Idea"
