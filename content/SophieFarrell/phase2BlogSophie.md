@@ -1,5 +1,5 @@
 ---
-title: "Phase 1 Individual Deliverable"
+title: "Phase 2 Individual Deliverable"
 date: 2025-05-27
 draft: false
 description: "The individual blog post for phase 1 of what I contributed and my time in Leuven"

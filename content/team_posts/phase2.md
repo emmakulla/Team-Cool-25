@@ -36,7 +36,7 @@ Relevance: Helps investigate how different federal policies affect that country'
 This will be the first page users see when they open our site. It will have our logo on the sidebar, the name of our app at the top of the screen, and options for which user they want to sign in as. Each option will have the picture of the user, their name, and a short description of them. 
 
 ## Paul E. Tishan Wireframes: 
-![wireframe2](/birthPredictorWireframe.jpeg)
+![wireframe2](/birthPredictor2.jpeg)
 
 This screen will be shown after the user logs in as Paul E. Tishan and chooses to use the birth rate predictor. There will be a picture that represents Paul E. Tishan on the sidebar as well as the options to go back home, visit our about section, and logout. There are a lot of different inputs the user can adjust to change the predicted birth rate shown towards the bottom of the screen. Paul will use this to see what policy changes his country can make to increase birth rates, such as increasing the amount parents can receive in daycare grants. 
 
