@@ -19,7 +19,13 @@ showAuthorsBadges: false
 We slightly altered the backgrounds of two of our users. Now, Eura Peon is considering moving countries; Cara Day is now the owner of a daycare chain instead of a single daycare and is considering going global by opening a daycare in another country. Additionally, some of our user stories have changed. We changed two user stories for both Eura Peon and Cara Day, so now Eura's second and third user stories are different and Cara's second and fourth user stories have changed. 
 
 ## Data Sources
-We added a data source to the two that we started with. This dataset provides many detailed statistics on different expenditures aimed at families and children within EU member states. It categorizes these expenditures based off of what is provided, such as cash benefits and what kind. The data was collected annually and accessed on EUROstat.different nations. 
+
+We added a data source to the two that we started with. This dataset shows federal expenditure on family/children functions (such as birth grants, child allowances, etc.) per year in European countries. This dataset is broken down by expenditure type; it is reported annually and has multiple years. 
+
+
+Description of data source: This dataset provides many detailed statistics on different expenditures aimed at families and children within EU member states. Itcategorizes these expenditures based off of what is provided, such as cash benefits and what kind. The data was collected annually and accessed on EUROstat. 
+
+
 
 - Dimensions: Country, Year, Type of Benefit, Means-Testing
 - Units: Monetary values presented in millions of euros, or euro per person
