@@ -60,9 +60,27 @@ Eura Peon Wireframes:
 
 # Data Visualization
 
+![Eura Pean Average Public Cash Benefits for Family Function per Person By Country](/CashBenEU_BAR.png)
+The bar chart showing average public cash benefits per person reveals that Poland ranks significantly lower than many other EU countries in terms of financial support for families. For Eura Pean, a single woman in Warsaw considering adopting a child, this result directly impacts her decision-making. Seeing that countries like Luxembourg, Germany, and the Netherlands offer far higher levels of cash benefits, Eura may feel that Poland’s support system could leave her financially strained, especially while managing a demanding job. These results provide her with evidence that relocating to a country with more generous parental support could make raising a child more financially feasible and secure, helping her weigh the true cost of parenthood as a single mother.
+
+![Cara Day Birth Rate vs. Childcare Expenditure per Person by Country-Year](/BirthRateCARA_SCATTER.png)
+This graph is a good and valuable tool for Cara Day because she is considering expanding her business to other countries. By plotting each country’s average public childcare expenditure per person against its birth rate for multiple years, the visualization lets Cara identify where family support systems are strongest. Countries positioned in the upper right corner of the graph—those with higher birth rates and greater investment in childcare like Denmark—signal markets with growing or stable populations of young children and supportive government policies. These are the best environments for a daycare business to thrive. Conversely, countries with low birth rates and minimal public spending on childcare may not offer sustainable opportunities for expansion. Additionally, because each data point is color-coded by year, Cara can observe trends over time, like whether countries are increasing investment or experiencing declining birth rates. This time-sensitive insight helps her anticipate future demand and align her business strategy accordingly. Ultimately, the graph empowers Cara to make informed, data-driven decisions about where to grow her daycare business based on real demographic and policy patterns across Europe.
 
 # ER Diagrams
 
+No matter if our users want to grasp the current climate as a to-be parent, understand as a daycare operator, propose legislation as a politician, the data structure of our app seeks to help them understand their decisions that transforms their own life, those in their community, or the European Union’s ~450 million people.
+
+## Eura Pean: Expecting Parent
+![Eura Pean ER Diagram](/P2_ER_EuraPean.png)
+
+## Cara Day: Daycare Chain Operator
+![Cara Day ER Diagram](/P2_ER_CaraDay.png)
+
+## Paul E. Tishan: EU Politician
+![Paul E. Tishan ER Diagram](/P2_ER_PaulETishan.png)
+
+## All Together: Harmonious Global ER Diagram
+![Global ER Diagram](/P2_ER_Global.png)
 
 # DDL
 
