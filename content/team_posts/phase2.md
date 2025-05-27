@@ -21,13 +21,15 @@ We slightly altered the backgrounds of two of our users. Now, Eura Peon is consi
 ## Data Sources
 We added a data source. 
 
-Description of data source:  
-The structure of the data:
-- Dimensions: 
-- Units: 
-- Observations: 
+Description of data source: This dataset provides many detailed statistics on different expenditures aimed at families and children within EU member states. Itcategorizes these expenditures based off of what is provided, such as cash benefits and what kind. The data was collected annually and accessed on EUROstat.different nations. 
 
-Relevance: 
+
+- Dimensions: Country, Year, Type of Benefit, Means-Testing
+- Units: Monetary values presented in millions of euros, or euro per person
+- Observations: Each data point represents the expenditure for a specific country, year, type of benefit, and means-testing status
+
+
+Relevance: This dataset is relevant in understanding the allocation of recources towards child welfare across Europe. It can be used to assess how different countries offer family support within their social protection systems and how these benefits have changed over time. This is relevant for an aspiring parent, who might consider the different benefits countries offer for family support as possible considerations to relocate. This data is vital for politicians as well, to assess how different types of expenditure across countries correspond with birth rates.
 
 # Wireframes
 Start Page Wireframe: 
