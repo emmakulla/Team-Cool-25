@@ -107,6 +107,10 @@ Transforming our Global ER diagram, this ERD clearly lists out the primary and f
 
 Peek at our SQL DDL setup as the foundation for Eurobébé's database.
 
+<span style="color:lightgreen"><strong>Green:</strong></span> Machine Learning Data Storage
+
+<span style="color:lightblue"><strong>Baby Blue:</strong></span> Entity
+
 <textarea style="width: 100%; height: 200px; resize: both; overflow: auto;">
   DROP DATABASE IF EXISTS eurobebe;
   CREATE DATABASE eurobebe;
