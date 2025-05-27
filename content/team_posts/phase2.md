@@ -22,7 +22,7 @@ We slightly altered the backgrounds of two of our users. Now, Eura Peon is consi
 We added a data source to the two that we started with. This dataset shows federal expenditure on family/children functions (such as birth grants, child allowances, etc.) per year in European countries. This dataset is broken down by expenditure type; it is reported annually and has multiple years. 
 
 
-Description of data source: This dataset provides many detailed statistics on different expenditures aimed at families and children within EU member states. Itcategorizes these expenditures based off of what is provided, such as cash benefits and what kind. The data was collected annually and accessed on EUROstat.different nations. 
+Description of data source: This dataset provides many detailed statistics on different expenditures aimed at families and children within EU member states. Itcategorizes these expenditures based off of what is provided, such as cash benefits and what kind. The data was collected annually and accessed on EUROstat. 
 
 
 - Dimensions: Country, Year, Type of Benefit, Means-Testing
