@@ -19,23 +19,23 @@ showAuthorsBadges: false
 We slightly altered the backgrounds of two of our users. Now, Eura Peon is considering moving countries; Cara Day is now the owner of a daycare chain instead of a single daycare and is considering going global by opening a daycare in another country. Additionally, some of our user stories have changed. We changed two user stories for both Eura Peon and Cara Day, so now Eura's second and third user stories are different and Cara's second and fourth user stories have changed. 
 
 ## Data Sources
+
 We added a data source to the two that we started with. This dataset shows federal expenditure on family/children functions (such as birth grants, child allowances, etc.) per year in European countries. This dataset is broken down by expenditure type; it is reported annually and has multiple years. 
 
 
 Description of data source: This dataset provides many detailed statistics on different expenditures aimed at families and children within EU member states. Itcategorizes these expenditures based off of what is provided, such as cash benefits and what kind. The data was collected annually and accessed on EUROstat. 
 
 
+
 - Dimensions: Country, Year, Type of Benefit, Means-Testing
 - Units: Monetary values presented in millions of euros, or euro per person
 - Observations: Each data point represents the expenditure for a specific country, year, type of benefit, and means-testing status
 
-
 Relevance: This dataset is relevant in understanding the allocation of recources towards child welfare across Europe. It can be used to assess how different countries offer family support within their social protection systems and how these benefits have changed over time. This is relevant for an aspiring parent, who might consider the different benefits countries offer for family support as possible considerations to relocate. This data is vital for politicians as well, to assess how different types of expenditure across countries correspond with birth rates.
-
 
 # Wireframes
 ## Start Page Wireframe: 
-![wireframe1](/homeWireframe.jpeg)
+![wireframe1](/homeWireframe2.jpeg)
 
 This will be the first page users see when they open our site. It will have our logo on the sidebar, the name of our app at the top of the screen, and options for which user they want to sign in as. Each option will have the picture of the user, their name, and a short description of them. 
 
@@ -44,30 +44,27 @@ This will be the first page users see when they open our site. It will have our 
 
 This screen will be shown after the user logs in as Paul E. Tishan and chooses to use the birth rate predictor. There will be a picture that represents Paul E. Tishan on the sidebar as well as the options to go back home, visit our about section, and logout. There are a lot of different inputs the user can adjust to change the predicted birth rate shown towards the bottom of the screen. Paul will use this to see what policy changes his country can make to increase birth rates, such as increasing the amount parents can receive in daycare grants. 
 
-![wireframe3](/legislationWireframe.jpeg)
+![wireframe3](/legislationWireframe2.jpeg)
 
 This screen will be shown after the user logs in as Paul E. Tishan and chooses the legislation finder. The user can change the country with a dropdown menu. This will cause the graph on the right to show that country's birth rate over time and cause different laws that country has made regarding focus areas that affect birth rate. Focus areas include social protection benefits, birth grants, daycare grants, etc. The user can also change the focus area in order to filter the laws so they only show legislation passed about that specific focus. 
 
 ## Cara Day Wireframes: 
-![wireframe4](/businessWireframe.jpeg)
+![wireframe4](/businessWireframe2.jpeg)
 
 This screen will be shown after the user logs in as Cara Day and chooses business planning. The user can choose which country they want to see information about and what year in case they want to look at historical data. They can choose a store location so they can set/update the opening and closing times for that location, as well as set the cost that parent pay each month for their child to go to the daycare. I am considering adding in a "Add New Location" button so that the user can add a store in a new country like Cara Day is considering doing. 
 
-![wireframe5](/parentResearchWireframe.jpeg)
+![wireframe5](/parentResearchWireframe2.jpeg)
 
 This screen will be shown after the user logs in as Cara Day and chooses parent research. The user can select a country and different articles about things that trouble parents will be shown. The articles will show the name of the article, the author, the date it was published, and a link to the article. 
 
 ## Eura Peon Wireframes: 
-![wireframe6](/countryPredictorWireframe.jpeg)
+![wireframe6](/countryPredictorWireframe2.jpeg)
 
 This screen will be shown after the user logs in as Eura Peon and chooses country predictor. The user can adjust the weekly hours they'd prefer to work, select the benefits they find most important (ex: day care grants, birth grants, etc.), toggle on/off if they care about the birth rate of a country, and select the year in the future they want to get their top 3 for. This will generate the top 3 countries based on their inputs. By clicking on the country, the user will get a small paragraph about the country. This screen may also be able to be used for Cara Day when looking for the best location for her new store, but as of now it is designed for Eura Peon. 
 
-![wireframe7](/resourceFinderWireframe.jpeg)
+![wireframe7](/resourceFinderWireframe2.jpeg)
 
 This screen will be shown after the user logs in as Eura Peon and chooses resource finder. The user can input the country and focus area (ex: single mothers, working mothers, women in STEM, etc.) for the resources they would like to see. Then a list of resources will be generated, including helpful articles, charities that donate to the focus area inputted, afinity groups related to the focus group, etc. Each resource listed will be able to show the country it is from/in, when it was founded/published, what focus area it is under, and a link to the resource. 
-
-# Data Cleaning
-
 
 # Data Visualization
 
@@ -81,23 +78,6 @@ This graph is a good and valuable tool for Cara Day because she is considering e
 
 ![Paul E. Tishian Crude Birth Rate Per Country](/birthrate.png)
 This line chart helps Paul by showing how birth rates have changed over time across every country, giving him a clear view of demographic trends in Europe. By tracking birth rates year by year, he can identify which countries are experiencing consistent declines, stability, or growth. This is useful for understanding how broader social or economic conditions may be influencing family planning decisions over time. It also helps Paul compare countries and consider where further analysis, such as modeling policy impacts, might be most relevant based on recent trends. Using this data, he can frame possible legislation to map that of countries who are experiencing growth in their birth rates.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # ER Diagrams
 
@@ -330,8 +310,6 @@ Peek at our SQL DDL setup as the foundation for Eurobébé's database.
   (2, 'DE', 450.00, 2);
 </textarea>
 
-
-
 # ML Proof of Concept
 
 Model 1: Paul’s Predictive Model - Supervised
@@ -364,7 +342,6 @@ Steps:
   - Weighted sum of how well each country fits
 - Rank top matches
 Overall: Recommends best-fit countries to move or expand to in the future (rank based off of similarity to the features of the most desirable ideal country to live in)
-
 
 # Data Cleaning
 Short discussions of how we cleaned our data!
