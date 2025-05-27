@@ -84,8 +84,8 @@ No matter if our users want to grasp the current climate as a to-be parent, unde
 
 
 Peek at our SQL DDL setup as the foundation for Eurobébé's database.
-<div style="max-height: 200px; overflow-y: auto; padding: 10px; border: 1px solid #ccc; background: #f9f9f9;">
-  <pre>
+
+<textarea style="width: 100%; height: 200px; resize: both; overflow: auto;">
   DROP DATABASE IF EXISTS eurobebe;
   CREATE DATABASE eurobebe;
   SHOW DATABASES;
@@ -278,10 +278,7 @@ Peek at our SQL DDL setup as the foundation for Eurobébé's database.
   INSERT INTO ChildcareOptions (option_id, country_code, cost_per_month, user_id) VALUES
   (1, 'BE', 650.00, 1),
   (2, 'DE', 450.00, 2);
-
-
-  </pre>
-</div>
+</textarea>
 
 
 
