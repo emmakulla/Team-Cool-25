@@ -77,9 +77,11 @@ This graph is a good and valuable tool for Cara Day because she is considering e
 
 # ER Diagrams
 
-<span style="color:lightblue">Baby Blue:</span> Entity
-<span style="color:red">Red:</span> Primary Key
-<span style="color:yellow">Yellow:</span> Foreign Key
+<span style="color:lightblue"><strong>Baby Blue:</strong></span> Entity
+
+<span style="color:red"><strong>Red:</strong></span> Primary Key
+
+<span style="color:orange"><strong>Yellow:</strong></span> Foreign Key
 
 ## Eura Pean: Expecting Parent
 ![Eura Pean ER Diagram](/P2_ER_EuraPean.png)
