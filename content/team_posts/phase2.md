@@ -81,19 +81,21 @@ This graph is a good and valuable tool for Cara Day because she is considering e
 
 # ER Diagrams
 
-No matter if our users want to grasp the current climate as a to-be parent, understand as a daycare operator, propose legislation as a politician, the data structure of our app seeks to help them understand their decisions that transforms their own life, those in their community, or the European Union’s ~450 million people.
-
 ## Eura Pean: Expecting Parent
 ![Eura Pean ER Diagram](/P2_ER_EuraPean.png)
+Ms. Pean is an [expecting parent](https://emmakulla.github.io/Team-Cool-25/team_posts/phase1post/#eura-pean). The ER diagram for her use case includes all data about employment, child-family benefits, and birth data across the EU and time. Her use includes an entity for `ChildcareOptions`, which she would use to compare benefits of various EU nations for expecting parents.
 
 ## Cara Day: Daycare Chain Operator
 ![Cara Day ER Diagram](/P2_ER_CaraDay.png)
+Ms. Day is a [daycare chain operator](https://emmakulla.github.io/Team-Cool-25/team_posts/phase1post/#cara-day). The ER diagram for her use case includes all data about employment, child-family benefits, and birth data across the EU and time. Her use includes an entity for `BusinessPlanning`, which she would use to plan the `GeneralLogistics` of the service's facilities as well as plans for future `OperatingHours` with current birth rate trends.
 
 ## Paul E. Tishan: EU Politician
 ![Paul E. Tishan ER Diagram](/P2_ER_PaulETishan.png)
+Mr. Tishan is an [EU Politician](https://emmakulla.github.io/Team-Cool-25/team_posts/phase1post/#paul-e-tishan). The ER diagram for his use case includes all data about employment, child-family benefits, and birth data across the EU and time. His use includes an entity for `PolicyAnalysis`, which he would use to plan the finances around a policy change, and details on the type, effect, and cost of the potential legislation.
 
 ## All Together: Harmonious Global ER Diagram
 ![Global ER Diagram](/P2_ER_Global.png)
+No matter if our users want to grasp the current climate as a to-be parent, understand as a daycare operator, propose legislation as a politician, the data structure of our app seeks to help them understand their decisions that transforms their own life, those in their community, or the European Union’s ~450 million people.
 
 # SQL DDL
 
