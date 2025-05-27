@@ -1,7 +1,7 @@
 ---
 title: "Phase 1 Individual Deliverable"
 date: 2025-05-27
-draft: true
+draft: false
 description: "The individual blog post for phase 1 of what I contributed and my time in Leuven"
 slug: "sophiephase2"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
