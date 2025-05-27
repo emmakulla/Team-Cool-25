@@ -1,5 +1,5 @@
 ---
-title: "Team Cool 25 Belgium DOC Project"
+title: "eurobébé"
 date: 2025-05-20
 draft: false
 description: "Our Idea"
