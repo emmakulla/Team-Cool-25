@@ -78,7 +78,7 @@ No matter if our users want to grasp the current climate as a to-be parent, unde
 ![Paul E. Tishan ER Diagram](/P2_ER_PaulETishan.png)
 
 ## All Together: Harmonious Global ER Diagram
-![Global ER Diagram](/P2_ER_Global.png)
+<img src="P2_ER_Global" style="width: 90%; margin: auto; display: block;" />
 
 # DDL
 
