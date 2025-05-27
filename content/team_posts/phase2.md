@@ -61,6 +61,19 @@ Eura Peon Wireframes:
 
 # ER Diagrams
 
+No matter if our users want to grasp the current climate as a to-be parent, understand as a daycare operator, propose legislation as a politician, the data structure of our app seeks to help them understand their decisions that transforms their own life, those in their community, or the European Union’s ~450 million people.
+
+## Eura Pean: Expecting Parent
+![Eura Pean ER Diagram](/P2_ER_EuraPean.png)
+
+## Cara Day: Daycare Chain Operator
+![Cara Day ER Diagram](/P2_ER_CaraDay.png)
+
+## Paul E. Tishan: EU Politician
+![Paul E. Tishan ER Diagram](/P2_ER_PaulETishan.png)
+
+## All Together: Harmonious Global ER Diagram
+![Global ER Diagram](/P2_ER_Global.png)
 
 # DDL
 
