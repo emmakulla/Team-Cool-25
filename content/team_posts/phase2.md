@@ -1,9 +1,9 @@
 ---
-title: "Project - Phase I"
-date: 2025-05-20
+title: "Project - Phase II"
+date: 2025-05-27
 draft: false
-description: "Our Idea"
-slug: "phase1post"
+description: "Phase II"
+slug: "phase2post"
 tags: ["project", "Setup"]
 authors:
   - "sophiefarrell"
