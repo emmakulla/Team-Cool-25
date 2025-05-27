@@ -22,7 +22,7 @@ With personas refined and sale pitches of our app perfected, I went ahead to cre
 
 | 1 | 2 | 3 | 4 | 5 |
 |------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-| ![1](/P2_ER_CaraDay.png) | ![2](/P2_ER_EuraPean.png) | ![3](/P2_ER_PaulETishan.png) | ![4](/P2_ER_Global.png) | ![5](/P2_ERD_Global.png) |
+| ![1](/P2_ER_CaraDay.png) | ![2](/P2_ER_EuraPean.png) | ![3](/P2_ER_PaulETishan.png) | ![4](/P2_ER_Global.png) | ![5](/P2_ERD_Diagram.png) |
 
 Beyond ER and ERD, I also implemented the SQL DDL including table creation and mock data insertion. In total, there are 11 tables. The code is available on our Phase 2 blog.
 
