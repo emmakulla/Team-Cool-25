@@ -20,6 +20,8 @@ I took a forward role in Phase 2 of the project. In the early stages after Phase
 
 With personas refined and sale pitches of our app perfected, I went ahead to create five total diagrams: three localized ER diagrams for each persona, one global ER diagram that combines their needs, and an ERD that incorporates ML data storage models for training and testing models. ER diagrams were crafted using Excalidraw and I used LucidChart to materialize the final ERD diagram.
 
+| 1 | 2 | 3 | 4 | 5 |
+|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
 | ![1](/P2_ER_CaraDay.png) | ![2](/P2_ER_EuraPean.png) | ![3](/P2_ER_PaulETishan.png) | ![4](/P2_ER_Global.png) | ![5](/P2_ERD_Global.png) |
 
 Beyond ER and ERD, I also implemented the SQL DDL including table creation and mock data insertion. In total, there are 11 tables. The code is available on our Phase 2 blog.
