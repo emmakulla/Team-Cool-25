@@ -12,4 +12,4 @@ showAuthorsBadges : false
 
 # About Mia Giargiari 
 
-Mia Giargiari is a rising second year student at Northeastern University studying Data Science and Business. She is from Cape Cod, MA.
+Mia Giargiari is a rising second year student at Northeastern University studying Business and Law with a Data Science minor. She grew up on Cape Cod Massachusetts and has enjoyed nannying and teaching swim lessons in the summer. She is currently studying data science in Leuven, Belgium.
