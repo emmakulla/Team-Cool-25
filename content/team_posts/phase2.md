@@ -77,6 +77,10 @@ This graph is a good and valuable tool for Cara Day because she is considering e
 
 # ER Diagrams
 
+<span style="color:lightblue">Baby Blue:</span> Entity
+<span style="color:red">Red:</span> Primary Key
+<span style="color:yellow">Yellow:</span> Foreign Key
+
 ## Eura Pean: Expecting Parent
 ![Eura Pean ER Diagram](/P2_ER_EuraPean.png)
 Ms. Pean is an [expecting parent](https://emmakulla.github.io/Team-Cool-25/team_posts/phase1post/#eura-pean). The ER diagram for her use case includes all data about employment, child-family benefits, and birth data across the EU and time. Her use includes an entity for `ChildcareOptions`, which she would use to compare benefits of various EU nations for expecting parents.
