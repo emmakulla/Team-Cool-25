@@ -16,7 +16,7 @@ showAuthorsBadges: false
 # Changes Since Phase 1
 
 ## User Personas
-We slightly altered the backgrounds of two of our users. Now, Eura Peon is considering moving countries; Cara Day is now the owner of a daycare chain instead of a single daycare and is considering going global by opening a daycare in another country. Additionally, some of our user stories have changed. 
+We slightly altered the backgrounds of two of our users. Now, Eura Peon is considering moving countries; Cara Day is now the owner of a daycare chain instead of a single daycare and is considering going global by opening a daycare in another country. Additionally, some of our user stories have changed. We changed two user stories for both Eura Peon and Cara Day, so now Eura's second and third user stories are different and Cara's second and fourth user stories have changed. 
 
 ## Data Sources
 We added a data source to the two that we started with. This dataset shows federal expenditure on family/children functions (such as birth grants, child allowances, etc.) per year in European countries. This dataset is broken down by expenditure type; it is reported annually and has multiple years. 
@@ -27,7 +27,7 @@ The structure of the data:
 - Units: Million Euro
 - Observations: Many datapoints due to multi-dimensional combinations
 
-Relevance: 
+Relevance: Helps investigate how different federal policies affect that country's birth rate. Politicians may use it to explore policy impacts of monetarily supporting parents on birth rate. Parents may use it when considering immigrating to a more financially supportive country. Daycare owners may use it to set prices within the grants their country offers parents. 
 
 # Wireframes
 ## Start Page Wireframe: 
