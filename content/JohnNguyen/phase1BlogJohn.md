@@ -1,5 +1,5 @@
 ---
-title: "Phase 1 Deliverable"
+title: "Phase 1 Individual Deliverable"
 date: 2025-05-20
 draft: false
 description: "Phase I: John's Individual Deliverable for Belgium '25 Dialogue of Civilizations"
