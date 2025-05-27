@@ -19,19 +19,13 @@ showAuthorsBadges: false
 We slightly altered the backgrounds of two of our users. Now, Eura Peon is considering moving countries; Cara Day is now the owner of a daycare chain instead of a single daycare and is considering going global by opening a daycare in another country. Additionally, some of our user stories have changed. We changed two user stories for both Eura Peon and Cara Day, so now Eura's second and third user stories are different and Cara's second and fourth user stories have changed. 
 
 ## Data Sources
-We added a data source to the two that we started with. This dataset shows federal expenditure on family/children functions (such as birth grants, child allowances, etc.) per year in European countries. This dataset is broken down by expenditure type; it is reported annually and has multiple years. 
-
-
-Description of data source: This dataset provides many detailed statistics on different expenditures aimed at families and children within EU member states. Itcategorizes these expenditures based off of what is provided, such as cash benefits and what kind. The data was collected annually and accessed on EUROstat.different nations. 
-
+We added a data source to the two that we started with. This dataset provides many detailed statistics on different expenditures aimed at families and children within EU member states. It categorizes these expenditures based off of what is provided, such as cash benefits and what kind. The data was collected annually and accessed on EUROstat.different nations. 
 
 - Dimensions: Country, Year, Type of Benefit, Means-Testing
 - Units: Monetary values presented in millions of euros, or euro per person
 - Observations: Each data point represents the expenditure for a specific country, year, type of benefit, and means-testing status
 
-
 Relevance: This dataset is relevant in understanding the allocation of recources towards child welfare across Europe. It can be used to assess how different countries offer family support within their social protection systems and how these benefits have changed over time. This is relevant for an aspiring parent, who might consider the different benefits countries offer for family support as possible considerations to relocate. This data is vital for politicians as well, to assess how different types of expenditure across countries correspond with birth rates.
-
 
 # Wireframes
 ## Start Page Wireframe: 
@@ -78,23 +72,6 @@ This graph is a good and valuable tool for Cara Day because she is considering e
 
 ![Paul E. Tishian Crude Birth Rate Per Country](/birthrate.png)
 This line chart helps Paul by showing how birth rates have changed over time across every country, giving him a clear view of demographic trends in Europe. By tracking birth rates year by year, he can identify which countries are experiencing consistent declines, stability, or growth. This is useful for understanding how broader social or economic conditions may be influencing family planning decisions over time. It also helps Paul compare countries and consider where further analysis, such as modeling policy impacts, might be most relevant based on recent trends. Using this data, he can frame possible legislation to map that of countries who are experiencing growth in their birth rates.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # ER Diagrams
 
@@ -327,8 +304,6 @@ Peek at our SQL DDL setup as the foundation for Eurobébé's database.
   (2, 'DE', 450.00, 2);
 </textarea>
 
-
-
 # ML Proof of Concept
 
 Model 1: Paul’s Predictive Model - Supervised
@@ -361,7 +336,6 @@ Steps:
   - Weighted sum of how well each country fits
 - Rank top matches
 Overall: Recommends best-fit countries to move or expand to in the future (rank based off of similarity to the features of the most desirable ideal country to live in)
-
 
 # Data Cleaning
 Short discussions of how we cleaned our data!
