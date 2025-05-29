@@ -109,6 +109,7 @@ No matter if our users want to grasp the current climate as a to-be parent, unde
 
 <span style="color:lightblue">Baby Blue:</span> Entity
 
+
 ![Global ERD Diagram](/P2_ERD_Diagram.png)
 Transforming our Global ER diagram, this ERD clearly lists out the primary and foreign keys of our database design. It also incorporates data storage facilities for storing cleaned and pre-processed ML data features used for training and testing models.
 
