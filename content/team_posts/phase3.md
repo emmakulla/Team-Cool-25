@@ -23,11 +23,23 @@ showAuthorsBadges: false
 | Resource | GET | PUT | POST | DELETE |
 | ---------|-----|-----|------|------  |
 | /locations | Gets all daycare locations from DaycareLocations (can be filtered by country) |  | Adds a new daycare location to DaycareLocations | |
-| /locations{daycare_id} |  | Updates opening_time, closing_time, or monthly_price for this daycare |  | Makes this location inactive and no longer visible |
+| /locations/{daycare_id} |  | Updates opening_time, closing_time, or monthly_price for this daycare |  | Makes this location inactive and no longer visible |
 | /groups | Gets a resources from AffinityResources (can be filtered by type, country) |   | Adds a new resource to AffinityResources |   |
 | /policy | Gets all policies from Poliies |   | Adds a new policy to Policies |  |
 | /weeklyhours | Gets all weekly working hours (can be filtered by country)|  |  |  |
 | /expenditure | Gets all expenditures from (can be filtered by type) |  |   |   |
+
+The /locations resource has two routes: one for a GET request and one for a POST request. The GET request will get all the daycare locations in the DaycareLocations table. This can be filtered by country, city, and monthly price. This route will be useful for the Cara Day persona and her business prediction page. She needs to be able to see her daycares in order to choose a location to update the opening hours, closing hours, and/or monthly price. This route could also be useful for Eura Peon on a page where she could search for a daycare in a specific country or city. 
+
+The /locations/{daycare_id} also has two routes: one for a PUT request and one for a DELETE request. The PUT request will update the opening time, closing time, and/or monthly price of the given daycare. This route will be useful for Cara Day when changing her business' hours or price in the business planning page. The DELETE request will mark a daycare as inactive if it shuts down or something. This will be useful for Cara Day on her business planning page as well, though it has not been implemented yet. 
+
+The /groups resource is yet another resource with two routes: a GET request and a POST request. The GET request will get all the resources from the AffinityResource table. This can be filtered by focus area, type of resource, and country. This will be useful for the Eura Peon persona and her resources page that will connect her to different resources and affinity groups. The POST request will add a resource to the AffinityResource table in the event that Eura Peon wants to start her own affinity group or charity. 
+
+The /policy resource also has the routes with GET and POST. The GET request will get all the legislation in the Policies table; this can be filtered by country, focus area, and year. This will be useful for Paul E. Tishian and his legislation finder page in order for the legislation to appear on the screen and for him to sort through the policies more easily. The POST request will allow him to add a new policy to the Policies table in the case that he passes a new law. 
+
+The /weeklyhours resource has a route for GET requests; it will get all the average weekly hours from the EUEmployment table. This can be filtered by country and year. This will be useful for all of our personas, as Cara Day is interested in knowing the weekly hours so she can see which countries are best to open new locations in, Paul E Tishian is interested in weekly working hours so he can see how it effects his constituents, and Eura Peon is interested in weekly working hours so she can see which countries have better work-life balance for her potential move and new life as a mother. 
+
+The /expenditure resource has a route for GET requests as well. This will get all the expenditures from the Children_FamilyBenefits table and can be filtered by type. This will be useful for Cara Day when she's researching new locations to open a daycare and wants to know the average daycare grants of a country. It will also be useful for Eura Peon when she wants to see which countries have the best public expenditures for parents. 
 
 
 ## App In Action
