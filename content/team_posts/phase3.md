@@ -44,8 +44,12 @@ The /expenditure resource has a route for GET requests as well. This will get al
 
 ## App In Action
 ![businesspage](/BusinessPlanningPage.png)
+
+This page shows off the /locations GET request route. When the "See Current Locations" button is pressed, the route is called to get the locations and put them in expanders that allows all of the information besides the daycare id and country code to be hidden until you open it. The /locations/{daycare_id} POST route can also be seen here with the "Update Price", "Update Opening Time", and "Update Closing Time" popovers that will open to show a time/number input to call the route and update these values in the database. 
+
 ![addlocationpage](/AddNewLocation.png)
 
+This pages shows off the /locations POST request route. The user will add the attributes through the input fields and when they press the "Add Location" button it will add a row to the DaycareLocations table with the values they inputted. 
 
 # Visualizations
 ## Eura Pean Employment Trends Observation
