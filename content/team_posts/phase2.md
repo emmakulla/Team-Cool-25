@@ -104,18 +104,16 @@ Mr. Tishan is an [EU Politician](https://emmakulla.github.io/Team-Cool-25/team_p
 No matter if our users want to grasp the current climate as a to-be parent, understand as a daycare operator, propose legislation as a politician, the data structure of our app seeks to help them understand their decisions that transforms their own life, those in their community, or the European Union’s ~450 million people.
 
 # Entity-Relationship Diagram
-
-<span style="color:lightgreen">Green:</span> Machine Learning Data Storage
-
-<span style="color:lightblue">Baby Blue:</span> Entity
-
-
 ![Global ERD Diagram](/P2_ERD_Diagram.png)
 Transforming our Global ER diagram, this ERD clearly lists out the primary and foreign keys of our database design. It also incorporates data storage facilities for storing cleaned and pre-processed ML data features used for training and testing models.
 
 # SQL DDL
 
 Peek at our SQL DDL setup as the foundation for Eurobébé's database.
+
+<span style="color:lightgreen">Green:</span> Machine Learning Data Storage
+
+<span style="color:lightblue">Baby Blue:</span> Entity
 
 <textarea style="width: 100%; height: 200px; resize: both; overflow: auto;">
   DROP DATABASE IF EXISTS eurobebe;
