@@ -28,3 +28,8 @@ showAuthorsBadges: false
 | /policy | Gets all policies from Poliies |   | Adds a new policy to Policies |  |
 | /weeklyhours | Gets all weekly working hours (can be filtered by country)|  |  |  |
 | /expenditure | Gets all expenditures from (can be filtered by type) |  |   |   |
+
+
+## App In Action
+![businesspage](/BusinessPlanningPage.png)
+![addlocationpage](/AddNewLocation.png)
