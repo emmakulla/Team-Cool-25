@@ -87,7 +87,7 @@ The Chorpleth map generated using plot.ly shows all European Union countries and
 
 ## Average Workhours Split by Genger
 
-![Work Hours by Gender](/work_by_gender.png)
+{{< iframe src="gender_employment_viz.html" width="100%" height="600" >}}
 
 This plot aims to show the average weekly working hours for both males and females in the selected country. This plot we plan will be used mainly for Paul's persona, as he will be assessing resources (mock) that suggest how much time parents should spend with their children to form healthy and happy bonds with them. He will use this plot to see whether or not the average work hours of his country align with the recommended guidelines, and if not, what legislation can he pass that will resolve this issue.
 
