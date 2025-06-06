@@ -15,7 +15,6 @@ showAuthorsBadges: false
 
 # Changes Since Phase 2
 
-
 ## Data Sources
 We added a fourth dataset! This dataset we deemed as necessary to try and inference wether or not the expenditure given per capita is relevant when considering the cost of living in these different countries. From the advice given from our last blog post, we did see this as necessary as just because Bulgaria gives less family expenditures then Germany, it has a lower cost of living. This dataset contains annual Consumer Price Index (CPI) data for European Union countries. The CPI measures the average change over time in the prices paid by consumers for a market basket of consumer goods and services. It includes the EU27 average and individual country values and spans multiple years.
 
@@ -33,7 +32,6 @@ Regarding our visualizations, we decided to scrap two of the three we produced l
 
 
 # Phase 3
-
 
 ## REST API Matrix
 | Resource | GET | PUT | POST | DELETE |
