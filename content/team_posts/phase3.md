@@ -15,8 +15,6 @@ showAuthorsBadges: false
 
 # Changes Since Phase 2
 
-
-
 # Phase 3
 
 ## REST API Matrix
