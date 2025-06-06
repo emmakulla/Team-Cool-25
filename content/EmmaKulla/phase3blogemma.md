@@ -6,15 +6,15 @@ description: "This is my individual blog post for Phase III that explain my cont
 slug: "miadeliverable3"   
 tags: ["authors", "config", "docs"]
 authors:
-  - "miagiargiari"
+  - "emmakulla"
 showAuthorsBadges : false
 ---
 
+## Dataset changes
+Based on the feedback we received from phase two, we found it necessary to add a fourth dataset that contained some sort of cost-of-living index. I decided to take this on, and landed on choosing the CPI index, one standardly used across the EU. This data was relatively easy to clean as the index is just one value, and most EU countries did not have much missing data for the relatively recent years. One thing that took me quite a while was merging different aspects from our four datasets into one dataset, containing total average weekly working hours, CPI value, birth rate, and the three different types of expenditure we landed on. Regarding data, this was the bulk of the work we did throughout this phase. 
 
-# My Contributions to The Group
-In this phase I mainly focused my energy towards coming up with ideas for visualizations then moving forward and creating them. We realized early in the week that the visualizations we made the previous week really did not fit our personas well and didn't solve any problems. The whole group and I spent a lot of time brainstorming new ideas for visualizations closely looking at the user personas and the wireframes made last phase. First I made a bar chart that compares employment status in a user-selected country with the average employment status in all of the European Union. This visualization was made for Eura Pean so she can observe employment trends in different countries and this will aid her in choosing a country to relocate to. This chart took a lot of time because there were three different inputs that I had to tweak continuously. The three inputs are gender, employment status, and country and a big issue I had was the placement of the dropdown menus so they didn’t overlap.
+## Visualizations
+From the feedback we received from phase two, we realized our visualizations needed a good bit of work. As a team, we decided to try and plan out how our wireframes would look and where helpful visualizations would fit in. From this planning, we landed on creating four more visualizations to include in our app. One that I worked on was the average weekly working hours split up by gender, which will be used to see, on average, how many hours parents would be spending with their children (mock data). The second visualization I started, but did not yet complete, would take in the recommended countries from our second model, and plot out the given expenditures as well as the price index of that country, to help our users make the most informed decisions about their futures, especially when it comes to relocation. 
 
-Next I created a choropleth map for Cara Day’s persona. The map showed all European Union countries and colored them coordinating with the total amount received in grants for childcare services. The more the country receives in grants the darker it is colored on the map and the color corresponds with the scale. This choropleth took quite a bit of time since it was the first of this graph type that I have ever made so I had to experiment with a lot of features. 
-
-Lastly I started training our second ML model, which is a recommendation model that takes in desired working hours, importance of benefits, maternity benefits, cash benefits, and services per capita. Based on these rankings, it will score each country on how well it matches, it will rank and recommend the best-fit countries to move to in Eura’s case or expand to in the future in Cara’s case. 
-
+## Model
+In regard to our ML model, I built, trained, and tested our first model, Paul’s linear regression birth rate predictor. Testing out different features took me a good bit of time, as more times than I’d like to admit, I predicted insane birth rates (including -47). After talking to Dr. Gerber, we decided that squaring and cubing certain features (that showed more nonlinear relationships), may help increase our R^2. I tested the model for each assumption, and summarized my conclusions in the blog. 
