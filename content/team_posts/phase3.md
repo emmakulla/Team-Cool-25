@@ -28,7 +28,10 @@ Relevance: This dataset is useful for understanding inflation trends across Euro
 After phase two, we had certain topics to consider regarding moving forward with our models. We decided the best way to break up expenditures was into three categories: total cash expenditures, maternity expenditures (grants given for childbirth/throughout maternity), and service grants (grants for child care, at-home accommodations, etc.).
 
 ## Visualizations
-Regarding our visualizations, we decided to scrap two of the three we produced last phase, only keeping and fully implementing the crude birth rate visualization. Our other two seemed to not convey useful data, so we decided to go a different route, which we will explain further.
+
+{{< iframe src="birth_rate.html" width="100%" height="600" >}}
+
+Regarding our visualizations, we decided to scrap two of the three we produced last phase, only keeping and fully implementing the crude birth rate visualization shown above. Our other two seemed to not convey useful data, so we decided to go a different route, which we will explain further.
 
 
 # Phase 3
