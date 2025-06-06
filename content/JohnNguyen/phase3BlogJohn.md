@@ -18,4 +18,4 @@ I led the format and transformation from wireframes to Streamlit in this Phase. 
 
 ## CS Aspect
 
-I tweaked our SQL DDL to more closely mimic the cleaned data. I also translated them from CSV to MySQL and incorporated them into our database files. This included making a new table for our fourth dataset: EU consumer price index (CPI).
+I tweaked our SQL DDL to more closely mimic the cleaned data. I also translated them from CSV to MySQL and incorporated them into our database files. This included making a new table for our fourth dataset: EU consumer price index (CPI). Additionally, I implemented the first model with its weights into our database and formatted the Streamlit elements accordingly. For now the model is part of the birth rate predictor feature for politicians.k
