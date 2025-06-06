@@ -66,10 +66,9 @@ This page shows off the /locations GET request route. When the "See Current Loca
 
 This pages shows off the /locations POST request route. The user will add the attributes through the input fields and when they press the "Add Location" button it will add a row to the DaycareLocations table with the values they inputted. 
 
-<p float="left">
-  <img src="/InitialBirthPredictor.png" width="100" />
-  <img src="/ChangedSpending.png" width="100" /> 
-</p>
+| ![birthratepredictor](/InitialBirthPredictor.png) |   |   ![birthratechange](/ChangedSpending.png) | 
+| ------------------------------------------------- | --- | --- |
+| <sup> Initial Page <sup> |  |  <sup> Page after changing inputs <sup>|
 
 This page is our birth rate predictor, which uses our first ML model to predict the birth rate based on the different factors the user inputs. It uses the /m1weights GET request route to do so. 
 
