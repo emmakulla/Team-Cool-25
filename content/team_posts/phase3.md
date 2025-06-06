@@ -69,7 +69,7 @@ This pages shows off the /locations POST request route. The user will add the at
 ![birthratepredictor](/InitialBirthPredictor.png)  ![birthratechange](/ChangedSpending.png) 
 
 
-This page is our birth rate predictor, which uses our first ML model to predict the birth rate based on the different factors the user inputs. It uses the /m1weights GET request route to do so. 
+This page is our birth rate predictor, which uses our first ML model to predict the birth rate based on the different factors the user inputs. It uses the /m1weights GET request route in the View Model Weights expander. 
 
 # Visualizations
 
