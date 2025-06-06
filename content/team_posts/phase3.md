@@ -29,7 +29,7 @@ After phase two, we had certain topics to consider regarding moving forward with
 
 ## Visualizations
 
-{{< iframe src="birth_rate.html" width="600%" height="100" >}}
+{{< iframe src="birth_rate.html" width="600%" height="600" >}}
 
 Regarding our visualizations, we decided to scrap two of the three we produced last phase, only keeping and fully implementing the crude birth rate visualization shown above. Our other two seemed to not convey useful data, so we decided to go a different route, which we will explain further.
 
