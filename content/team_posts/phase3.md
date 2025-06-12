@@ -89,3 +89,81 @@ This visualization was made for Eura Pean so she can observe employment trends i
 The Chorpleth map generated using plot.ly shows all European Union countries and colored them coordinating with the total amount received in grants for childcare services. The more the country receives in grants the darker it is colored on the map and the color corresponds with the scale. This map will help Cara Day because it will show her which countries get the most aid for childcare, proving some to be more affordable for her needs than others.
 
 
+## Average Workhours Split by Genger
+
+{{< iframe src="gender_employment_viz.html" width="100%" height="600" >}}
+
+This plot aims to show the average weekly working hours for both males and females in the selected country. This plot we plan will be used mainly for Paul's persona, as he will be assessing resources (mock) that suggest how much time parents should spend with their children to form healthy and happy bonds with them. He will use this plot to see whether or not the average work hours of his country align with the recommended guidelines, and if not, what legislation can he pass that will resolve this issue.
+
+## Expenditures and CPI Index
+
+This visualization, although not made yet, will be an extremely useful one for our app. As recommended, we saw it necessary to compare a cost of living index with the expenditures provided in order to determine whether or not these expenditures will truly 'make a difference' in terms of child planning. We hope to place this visualization by our second model, which Cara and Eura will use. This visualization will take in the top 5 countries recommended by the model, and compare the expenditures provided (total cash benefits), and the CPI index for the country, so Cara and Eura can then make more informed decisions on which countries would be the best to expand to/move to.
+
+# ML Models
+
+
+This phase included the completion of our first ML model! This model is designed to predict the birth rate per thousand people in a country based on key socioeconomic indicators. It is aimed at helping policy makers understand how factors such as work hours and social spending relate to population growth and what legislation can be pushed to affect birth rate. This is a linear regression model, trained using the normal equation. Our second model, the reccommendation system, is still underworks, yet will use similar frameworks in terms of how expenditure inputs are split up.
+
+The inputs:
+- Weekly Hours: Average weekly working hours
+- Cash Per Capita: Total public cash benefits per person
+- Maternity per Capita: Benefits given during maternity/at childbirth
+- Services per Capita: Public spending on services (for education, daycare) per person
+
+![Services](/services_birth.png)
+![Work Hours](/workhours_birth.png)
+![Cash Expenditures](/cash_birth.png)
+
+After talking to Dr. Gerber (due to struggling R^2 Values) we decided it was best to include both squared and cubed values for work hours, and squared values for cash and services per capita, as this seemed to best fit these features graphs.
+
+Standardization:
+All features were standardized by subracting the mean of the feature from the original feature value, and subtracting that by the standard deviation of the feature. This helped to ensure consistency among the data values and make sure all features were on the same scale.
+
+Training: To train the model, we used a cleaned and merged version of our data sets, that contained the rows, country, birth rate, working hours, as well as the three types of expenditure, and the CPI value of each country. The weights of the model were computed using the normal equation, with the prediction being done using these weights.
+
+Model Evaluation:
+- MAE: 0.8554452972486888
+- R²:  0.20494214966561752
+
+Model Coefficients:
+- intercept 9.709569377990391
+- weekly_hours 43.97361741075498
+- cash_per_capita -1.5466764388529706
+- maternity_per_capita 0.7253613278930059
+- services_per_capita -0.6409148556442577
+- weekly_hours_squared -86.3538184164236
+- weekly_hours_cubed 41.93959752072412
+- cash_per_capita_squared 1.4375034265977322
+- services_per_capita_squared 0.27451327522306634
+
+Testing Assumptions:
+1. Linearity 
+
+![Actual Vs. Predicted](/act_vs_pred.png)
+
+This assumptions states that the relationship between the independent and dependent variables is linear. We checked using this plot, and observed that the plot did show a moderate linear trend, with no strong non-linear patterns. 
+
+2. Independence of Errors
+
+This assumption states that residuals should be independent, and that the error of one observation should not depend on another. Since our data is of different countries, there is no serious correlation. 
+
+3. Homoscedasticity
+
+![Residuals vs. Fitted (Predicted) Values](/resids_vs_pred.png)
+
+This assumption states that the variance of residuals should be constant across all levels of the predicted values. Based off of the visualization, the residuals did appear to be randomly distributed. 
+
+4. Normality of Residuals
+
+![Histogram](/histogram_resids.png)
+
+![Q-Q](/Q_Q_residuals.png)
+
+This assumption states that residuals should be normally distributed, the histogram does show a normal distribution. However, the Q-Q plot of the residuals did show some deviation.
+
+5. Multicollinearity
+
+![Correlation Heatmap](/correlation_heatmap.png)
+
+This assumption states that independent variables shouldn't be strongly correlated with one another. Based off of our heatmap, and the fact that we have some cubed and squared terms, there is moderate correlation.
+
