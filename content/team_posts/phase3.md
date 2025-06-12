@@ -34,3 +34,4 @@ This visualization was made for Eura Pean so she can observe employment trends i
 
 The Chorpleth map generated using plot.ly shows all European Union countries and colored them coordinating with the total amount received in grants for childcare services. The more the country receives in grants the darker it is colored on the map and the color corresponds with the scale. This map will help Cara Day because it will show her which countries get the most aid for childcare, proving some to be more affordable for her needs than others.
 
+## Work Hours By Sex
