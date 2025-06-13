@@ -1,7 +1,7 @@
 ---
 title: "Phase 4 Individual Deliverable"
 date: 2025-06-13
-draft: true
+draft: false
 description: "The individual blog post for phase 4 of what I contributed"
 slug: "sophiephase4"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
@@ -79,4 +79,6 @@ showAuthorsBadges : false
   - organized visualizations into tabs on page
 17. Parent Daycare Profile page
   - created page (version of daycare profile that shows less information and can't be edited)
-18. Deleted unecessary pages and routes
+18. Deleted unecessary pages and routes and tables
+19. Presentation prep
+  - redid database schema for presentation
