@@ -3,7 +3,7 @@ title: "Phase 3 Individual Deliverable"
 date: 2025-06-05
 draft: false
 description: "This is my individual blog post for Phase III that explain my contributions to the group thus far."
-slug: "miadeliverable3"   
+slug: "emmaphase3"   
 tags: ["authors", "config", "docs"]
 authors:
   - "emmakulla"
