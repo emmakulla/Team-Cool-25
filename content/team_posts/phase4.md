@@ -136,4 +136,3 @@ This is an example of the data that is produced for each top 5 country that matc
 ## Link to our App!
 
 Here is the link to access our app:
-https://github.com/johnncp/25su-DoC-Project-Team-Cool25
