@@ -15,6 +15,11 @@ showAuthorsBadges: false
 
 # Changes Since Phase 3
 
+## Visualizations
+
+![percapita](/CaraVizPerCapita.png)
+
+We edited a previous visualization that was created for phase 3, which was a choropleth heatmap which showed the amounts of grants each country in the EU recieved for childcare expenditure. The edit that we made was switching it to show the amount per capita rather than the total for each country, so that the number was not just reliant on the country's population.
 
 
 # Phase 4

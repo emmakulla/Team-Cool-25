@@ -17,4 +17,6 @@ For this final phase, there was a lot of work to be done as a group. I focused a
 
 I also worked on a visualization for Cara Day's persona based on mock data. Emma did complete the visalizations for the mock data though. I also went through all of the visualizations that I created and tweaked them all to fit better in the web app and make sense in context of the personas that they were made for.
 
-In regards to our team blog, I added explanations for the recommendation machine learning model and .
+In regards to our team blog, I added explanations for the recommendation machine learning model as well as all of the visualizations I did work on. Lastly, we did a lot of practicing for our final presentation to polish it and professionalize it.
+
+I am so excited to present to everyone the product of our team's hard work and incredible effort, and I am so proud of the app that we were able to create!
