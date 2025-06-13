@@ -15,7 +15,11 @@ showAuthorsBadges: false
 
 # Changes Since Phase 3
 
+## Mock Data
+Based on the feedback we got after our Phase 3 presentation, we decided to add more to the mock data we are generating. Now, daycares have more information than just shallow opening hours. Each location has 10 years worth of data on their budget, prices, enrollment rates, etc. We also were more descriptive with the mock data we already had by adding more precise locations (ex: city) and adding a description section to Policies and AffinityResources.
 
+## Data Model
+Because of our changes with the mock data, we needed to update our data model to better reflect the attributes we added. A new entity, DaycareData, was added as well as changes in attributes to other tables such as Policies and Affinity Resources. Additionally, we added a UserRoles entity that will authenticate the user to see certain pages (ex: Politician sees Politician pages but not Parent pages). We also made some changes to our REST API Matrix due to the changes to our model and just unexpected features we came up with during this phase. You'll see the full matrix below in the Phase 4 section of this post. 
 
 ## Visualizations
 
@@ -31,6 +35,28 @@ In regard to our models, phase four is where they truly began to take shape! We 
 
 ## Data Model
 
+### REST API Matrix
+| Resource | GET | PUT | POST | DELETE |
+| ---------|-----|-----|------|------  |
+| /locations | Gets all daycare locations from DaycareLocations (can be filtered by country) |  | Adds a new daycare location to DaycareLocations | |
+| /locations/{daycare_id} | Gets all information stored about this daycare in DaycareLocations and DaycareData |  |  | Moves this location to a deleted locations table |
+| /groups | Gets a resources from AffinityResources (can be filtered by type, country) |   | Adds a new resource to AffinityResources |   |
+| /policy | Gets all policies from Poliies |   | Adds a new policy to Policies |  |
+| /allpolicy | Gets all policies (can be filtered by multiple values for one attribute) | | | |
+| /weeklyhours | Gets all weekly working hours (can be filtered by country)|  |  |  |
+| /expenditure | Gets all expenditures from (can be filtered by type) |  |   |   |
+| /m1weights | gets all the weights from the first ML model |  |  |  |
+| /benefit | Gets all benefit expenditures (can be filtered) | | | |
+| /cpi | Gets all of the CPI data (can be filtered by country and year) | | | |
+| /data | Gets all of the daycare data from DaycareData (can be filtered by monthly price and year)| | | |
+| /data/{id} | Gets all the daycare data from DaycareData for a specific data id (can be filtered) | | | |
+| /daycaredata/{daycare_id} | Gets all the daycare data from DaycareData for a specific daycare (can be filtered) | Updates data for this specific daycare id | | |
+| /notes | | | Creates a new note | |
+| /notes/{user_id} | Gets this user’s note | | | Deletes this user's note|
+| /api/birth-rates | Gets information about birth rates from EUBirthData | | | |
+| /role/{role_id} | Gets all users with this role_id | | | |
+
+This is our final REST API Matrix with all of the routes we created in our project. The Phase 3 blog post still has the old matrix for comparison. As you can see, there are a lot more routes this time around, and while many of them are GET requests, there are a good handful of other requests as well. 
 
 
 ## ML Models
