@@ -35,6 +35,37 @@ In regard to our models, phase four is where they truly began to take shape! We 
 
 ## ML Models
 
+Model 1
+
+Since phase 3, Model one was further refined in order to become a predictive model for the birth rates in 2024 of EU countries. This means the year feature was added, we also removed some of the squared and cubed features to adjust for the strong multicollineariy we saw in phase 3 (as reccommended by Dr. Gerber). A quick overview:
+
+The Features:
+- Average working hours
+- Year
+- Maternity per capita
+- Services per capita
+- Average working hours squared
+- Cash per capita squared
+- Services per capita squared
+
+Model Evaluation:
+- MAE: .8335
+- R²: .1998
+
+Model Coefficients: 
+- Intercept: 9.67 
+- Weekly hours: 3.43
+- Maternity per capita: 0.54 
+- Services per capita: -1.15
+- Year: -0.46
+- Weekly hours squared: -3.86
+- Cash per capita squared: -1.37  
+- Services per capita squared: 2.24
+
+Assumptions:
+Through adding these slight tweaks to the model and it's features, the testing of the assumptions relatively similar to what we did in phase 3. As Dr. Gerber explained, our features do still show a strong of multicollinearity, as there still are some repeated features in terms of squared/cubed values. 
+
+Model 2
 
 The inputs:
 - Desired working hours
