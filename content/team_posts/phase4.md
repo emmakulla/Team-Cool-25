@@ -35,6 +35,12 @@ In regard to our models, phase four is where they truly began to take shape! We 
 
 ## Data Model
 
+### Final Schema
+![finalschema](/database_diagram.png)
+
+This is the final schema for our database. It includes a User entity, each of which has a role. These roles determine the pages that the user will see when they log in. Users may also have Notes that they make while navigating the app. Additionally, Users with the role of daycare_operator may have DaycareLocations, which represent a daycare that the user owns. DaycareLocations also have DaycareData, which is basic data that can be used for analysis of the daycare location. Additionally we have the entity Policies, which detail different policies that could influence the birth rate and is currently composed of mock data. Another entity using mock data is the AffinityResources entity, which stores different resources that a user with the role of parent may find useful. This includes affinity groups, charities, and articles. Our real data is stored in EUBirthData, EUCPI, Children_FamilyBenefits, and EUEmployment. These entities store the birth rate by year of a country, the Consumer Price Index (CPI) of a country by year, different benefits expenditures of a country, and weekly working hours of a country by numerous factors. Our ML Model weights are stored in Model1Weights and eu_family_employment_data. 
+
+
 ### REST API Matrix
 | Resource | GET | PUT | POST | DELETE |
 | ---------|-----|-----|------|------  |
